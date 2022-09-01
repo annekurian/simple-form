@@ -6,6 +6,10 @@
     color: red;
   }
 
+  .label-fs{
+    font-size: 0.9rem;
+  }
+
   .form-control:hover, .form-control:focus{
     border-color:var(--blue-color);
     box-shadow: none;
