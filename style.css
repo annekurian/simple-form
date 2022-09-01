@@ -1,0 +1,44 @@
+:root{
+    --blue-color: #0d6efd;
+  }
+
+  .required {
+    color: red;
+  }
+
+  .label-fs{
+    font-size: 0.9rem;
+  }
+
+  .form-control:hover, .form-control:focus{
+    border-color:var(--blue-color);
+    box-shadow: none;
+  }
+
+  .img-size{
+    width: 250px;
+    height: auto;
+  }
+
+  .error-block{
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545;
+  }
+
+  .form-control.danger{
+    border-color: red;
+  }
+
+  .alert-icon{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--blue-color);
+  }
+
+  .alert-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
